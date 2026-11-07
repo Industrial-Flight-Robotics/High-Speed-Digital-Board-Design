@@ -1,2 +1,2 @@
-# High-Speed-Digital-Board-Design
-High Speed Digital Board Design using KiCad and Python SignalIntegrity Library 
+# High Speed Digital Design 
+High Speed Digital Board Design using KiCad and the Python SignalIntegrity Library 
