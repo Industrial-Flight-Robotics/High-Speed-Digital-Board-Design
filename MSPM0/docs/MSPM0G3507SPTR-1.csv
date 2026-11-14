@@ -1,0 +1,49 @@
+Number,Name,Electrical Type,Graphic Style,Orientation,Number Text Size,Name Text Size,Length,X Position,Y Position,Visible,Unit,Body Style
+6,VDD,Power input,Line,Right,50,50,100,0,0,TRUE,ALL,ALL
+7,VSS,Power input,Line,Right,50,50,100,0,-100,TRUE,ALL,ALL
+48,VCORE,Power input,Line,Right,50,50,100,0,-200,TRUE,ALL,ALL
+4,NRST,Input,Line,Right,50,50,100,0,-300,TRUE,ALL,ALL
+1,PA0,Bidirectional,Line,Right,50,50,100,0,-400,TRUE,ALL,ALL
+2,PA1,Bidirectional,Line,Right,50,50,100,0,-500,TRUE,ALL,ALL
+8,PA2,Bidirectional,Line,Right,50,50,100,0,-600,TRUE,ALL,ALL
+9,PA3,Bidirectional,Line,Right,50,50,100,0,-700,TRUE,ALL,ALL
+10,PA4,Bidirectional,Line,Right,50,50,100,0,-800,TRUE,ALL,ALL
+11,PA5,Bidirectional,Line,Right,50,50,100,0,-900,TRUE,ALL,ALL
+12,PA6,Bidirectional,Line,Right,50,50,100,0,-1000,TRUE,ALL,ALL
+13,PA7,Bidirectional,Line,Right,50,50,100,0,-1100,TRUE,ALL,ALL
+16,PA8,Bidirectional,Line,Right,50,50,100,0,-1200,TRUE,ALL,ALL
+17,PA9,Bidirectional,Line,Right,50,50,100,0,-1300,TRUE,ALL,ALL
+18,PA10,Bidirectional,Line,Right,50,50,100,0,-1400,TRUE,ALL,ALL
+19,PA11,Bidirectional,Line,Right,50,50,100,0,-1500,TRUE,ALL,ALL
+27,PA12,Bidirectional,Line,Right,50,50,100,0,-1600,TRUE,ALL,ALL
+28,PA13,Bidirectional,Line,Right,50,50,100,0,-1700,TRUE,ALL,ALL
+29,PA14,Bidirectional,Line,Right,50,50,100,0,-1800,TRUE,ALL,ALL
+30,PA15,Bidirectional,Line,Right,50,50,100,0,-1900,TRUE,ALL,ALL
+31,PA16,Bidirectional,Line,Right,50,50,100,0,-2000,TRUE,ALL,ALL
+32,PA17,Bidirectional,Line,Right,50,50,100,0,-2100,TRUE,ALL,ALL
+33,PA18,Bidirectional,Line,Right,50,50,100,0,-2200,TRUE,ALL,ALL
+34,PA19,Bidirectional,Line,Right,50,50,100,0,-2300,TRUE,ALL,ALL
+35,PA20,Bidirectional,Line,Right,50,50,100,0,-2400,TRUE,ALL,ALL
+39,PA21,Bidirectional,Line,Right,50,50,100,0,-2500,TRUE,ALL,ALL
+40,PA22,Bidirectional,Line,Right,50,50,100,0,-2600,TRUE,ALL,ALL
+43,PA23,Bidirectional,Line,Right,50,50,100,0,-2700,TRUE,ALL,ALL
+44,PA24,Bidirectional,Line,Right,50,50,100,0,-2800,TRUE,ALL,ALL
+45,PA25,Bidirectional,Line,Right,50,50,100,0,-2900,TRUE,ALL,ALL
+46,PA26,Bidirectional,Line,Right,50,50,100,0,-3000,TRUE,ALL,ALL
+47,PA27,Bidirectional,Line,Right,50,50,100,0,-3100,TRUE,ALL,ALL
+3,PA28,Bidirectional,Line,Right,50,50,100,0,-3200,TRUE,ALL,ALL
+5,PA31,Bidirectional,Line,Right,50,50,100,0,-3300,TRUE,ALL,ALL
+14,PB2,Bidirectional,Line,Right,50,50,100,0,-3400,TRUE,ALL,ALL
+15,PB3,Bidirectional,Line,Right,50,50,100,0,-3500,TRUE,ALL,ALL
+20,PB6,Bidirectional,Line,Right,50,50,100,0,-3600,TRUE,ALL,ALL
+21,PB7,Bidirectional,Line,Right,50,50,100,0,-3700,TRUE,ALL,ALL
+22,PB8,Bidirectional,Line,Right,50,50,100,0,-3800,TRUE,ALL,ALL
+23,PB9,Bidirectional,Line,Right,50,50,100,0,-3900,TRUE,ALL,ALL
+24,PB14,Bidirectional,Line,Right,50,50,100,0,-4000,TRUE,ALL,ALL
+25,PB15,Bidirectional,Line,Right,50,50,100,0,-4100,TRUE,ALL,ALL
+26,PB16,Bidirectional,Line,Right,50,50,100,0,-4200,TRUE,ALL,ALL
+36,PB17,Bidirectional,Line,Right,50,50,100,0,-4300,TRUE,ALL,ALL
+37,PB18,Bidirectional,Line,Right,50,50,100,0,-4400,TRUE,ALL,ALL
+38,PB19,Bidirectional,Line,Right,50,50,100,0,-4500,TRUE,ALL,ALL
+41,PB20,Bidirectional,Line,Right,50,50,100,0,-4600,TRUE,ALL,ALL
+42,PB24,Bidirectional,Line,Right,50,50,100,0,-4700,TRUE,ALL,ALL

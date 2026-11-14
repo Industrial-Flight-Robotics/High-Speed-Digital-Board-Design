@@ -81,7 +81,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -122,13 +121,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "374b734b-dad8-409c-9974-68046198897f")
-		(at 148.3 86.0875 -90)
+		(at 209.125 84.0375 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "55851bd7-499b-4635-806a-36c5212aa004")
+			(uuid "7e2e6f4a-c602-4f36-859b-62c9c4a37ce3")
 			(effects
 				(font
 					(size 1 1)
@@ -139,7 +138,7 @@
 		(property "Value" "49.9"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "24c09f56-bcc4-471a-a6aa-a1b43c2d1daa")
+			(uuid "2ee86805-c4c9-462b-8f74-ffb39f269fe8")
 			(effects
 				(font
 					(size 1 1)
@@ -151,7 +150,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "abb704ee-a6d4-45a7-9a76-d8cb202f90bf")
+			(uuid "622932f8-fc8f-4e81-ab2d-3f92b6e32ecd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,22 +161,10 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6d2d8b7-604e-469f-8f1b-791a303cd830")
+			(uuid "55900501-6145-45fe-afae-9cd1f0d954c3")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 90)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "af943abf-2ead-44a4-85a9-7c83dd972ab7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -251,7 +238,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net "Net-(JP1-B)")
+			(net "/TERM_LOAD")
 			(pintype "passive")
 			(uuid "646cf787-291d-4c67-9fac-2e25e81cd8f1")
 		)
@@ -280,13 +267,13 @@
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "3858a135-7ba9-48f3-8503-ac931a2d4c21")
-		(at 148 73.1 -90)
+		(at 215.35 77.55 -90)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
 			(at 0 -1.8 90)
 			(layer "F.SilkS")
-			(uuid "81275104-b3d5-44b3-a034-44fe29e785d8")
+			(uuid "5f7046ce-4ea4-4215-8b52-e9afa76b1f80")
 			(effects
 				(font
 					(size 1 1)
@@ -295,9 +282,9 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 90)
+			(at -3.675 0.075 180)
 			(layer "F.Fab")
-			(uuid "097c3ac7-f004-4211-a76d-955766b79898")
+			(uuid "3cbdca2d-fddc-4c42-ae2c-ab3b76466e44")
 			(effects
 				(font
 					(size 1 1)
@@ -310,7 +297,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11a6597a-1e20-4f22-ac1d-680c67ab1e9c")
+			(uuid "92c2a179-9f67-47af-a6c1-a1a038a85520")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +310,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "34a08c2c-5e23-402d-aa39-52fbe0044046")
+			(uuid "85fa8d2d-ae53-497b-a66b-3ae1284721cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -448,7 +435,7 @@
 			(at 0.65 0 270)
 			(size 1 1.5)
 			(layers "F.Cu" "F.Mask")
-			(net "Net-(JP1-B)")
+			(net "/TERM_LOAD")
 			(pinfunction "B_2")
 			(pintype "passive")
 			(uuid "e590ac18-5543-4bf8-8758-57acaa84e7d6")
@@ -458,7 +445,7 @@
 	(footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 		(layer "F.Cu")
 		(uuid "7ce776b8-1c9c-42f5-803a-6a3a5c9dab21")
-		(at 112.4625 72.5 180)
+		(at 116.0625 71.7 180)
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/595984/parent/132289/")
 		(tags "SMA")
 		(property "Reference" "J2"
@@ -843,7 +830,7 @@
 	(footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 		(layer "F.Cu")
 		(uuid "e63e0291-a644-4d5b-860a-a968e4219f3e")
-		(at 190.9625 71.5)
+		(at 234 71.7)
 		(descr "https://www.amphenolrf.com/library/download/link/link_id/595984/parent/132289/")
 		(tags "SMA")
 		(property "Reference" "J1"
@@ -1224,6 +1211,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 110 54.2)
+		(end 240 89.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "ce6937d6-250a-4828-a130-b3e1404c11b8")
 	)
 	(embedded_fonts no)
 )
