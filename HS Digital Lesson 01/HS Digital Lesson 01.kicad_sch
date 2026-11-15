@@ -870,7 +870,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3ef518f0-2295-468d-ba23-d4aae09e97f5")
+		(uuid "a59823f4-ab85-4644-b4f9-2dab80e66443")
 	)
 	(label "RF_SIGNAL"
 		(at 147.32 86.36 0)
